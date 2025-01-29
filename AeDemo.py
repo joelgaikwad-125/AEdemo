@@ -3,8 +3,8 @@ class Addition:
         return a + b
 
 class Subtraction:
-    def subtract(self, a, b):
-        return a - b
+    subtract = lambda self, a, b: a - b
+    10124353465475677
 
 class Multiplication:
     def multiply(self, a, b):
