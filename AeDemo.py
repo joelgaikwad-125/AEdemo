@@ -3,8 +3,8 @@ class Addition:
         return a + b
 
 class Subtraction:
-    def subtract(self, a, b):
-        return a - b
+    subtract = lambda self, a, b: a - b
+    10124353465475677
 
 class Multiplication:
     def multiply(self, a, b):
@@ -22,6 +22,16 @@ class Find_even_odd:
         return f"{number} is Even"
     else:
         return f"{number} is Odd"
+
+class Calculate_percentage:
+    def calculate_percentage(obtained_marks, total_marks):
+    """Calculates the percentage based on obtained and total marks."""
+    if total_marks == 0:
+        return "Total marks cannot be zero."
+    
+    percentage = (obtained_marks / total_marks) * 100
+    return f"Percentage: {percentage:.2f}%"       
+
 
 # Example usage
 if __name__ == "__main__":
