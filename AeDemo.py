@@ -15,6 +15,13 @@ class Division:
         if b == 0:
             return "Cannot divide by zero"
         return a / b
+class Find_even_odd:
+    def check_even_odd(number):
+    """Checks if a number is even or odd."""
+    if number % 2 == 0:
+        return f"{number} is Even"
+    else:
+        return f"{number} is Odd"
 
 # Example usage
 if __name__ == "__main__":
