@@ -17,8 +17,10 @@ class Division:
             return "Cannot divide by zero"
         return a / b
     
-def Tejas():
-    print("Tejas wants to add something")
+class Calculator:
+    def Calc():
+        Add = 0
+        sub = 0
 
 # Example usage
 if __name__ == "__main__":
