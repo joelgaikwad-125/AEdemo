@@ -23,6 +23,16 @@ class Find_even_odd:
     else:
         return f"{number} is Odd"
 
+class Calculate_percentage:
+    def calculate_percentage(obtained_marks, total_marks):
+    """Calculates the percentage based on obtained and total marks."""
+    if total_marks == 0:
+        return "Total marks cannot be zero."
+    
+    percentage = (obtained_marks / total_marks) * 100
+    return f"Percentage: {percentage:.2f}%"       
+
+
 # Example usage
 if __name__ == "__main__":
     add_obj = Addition()
